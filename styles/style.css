@@ -44,7 +44,6 @@
   font-size: 102px;
   font-weight: 700;
   line-height: 96px;
-  font-weight: 700;
 }
 .header__subtitle{
   font-size: 20px;
@@ -326,11 +325,6 @@ margin: auto;
   display: flex;
   flex-direction: column;
 }
-.footer__column-heading_text{
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: 700;
-}
 .footer__columns_links{
   display: flex;
   flex-direction: column;
@@ -344,14 +338,8 @@ margin: auto;
 }
 .footer__column-heading_text{
   font-size: 18px;
-  font-size: 18px;
   line-height: 30px;
   font-weight: 700;
-}
-.footer__columns_links{
-  display: flex;
-  flex-direction: column;
-  margin-top: 20px;
 }
 .footer__columns_link{
   text-decoration: none;
