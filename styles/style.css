@@ -268,11 +268,11 @@
 }
 
 .footer {
-  background-color: black; 
-  min-height: 360px; 
+  background-color: #1f1f1f;
+  min-height: 360px;
   display: flex;
 }
-.footer__columns { 
+.footer__columns {
   margin-top: 60px; 
   margin-bottom: 40px; 
   margin-left: auto; 
