@@ -273,56 +273,56 @@
   display: flex;
 }
 .footer__columns {
-  margin-top: 60px; 
-  margin-bottom: 40px; 
-  margin-left: auto; 
-  margin-right: auto; 
-  display: flex; 
-  flex-direction: row; 
-  justify-content: space-between; 
-  width: 90%; 
-  color: white; 
-} 
-.footer__column_content_copyright { 
-  flex-basis: 711px; 
-  display: flex; 
-  flex-direction: column; 
-  justify-content: space-between; 
-} 
-.logo_place_footer { 
-  width: 228px; 
-  height: 32px; 
-} 
-.footer__author { 
+  margin-top: 60px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  color: white;
+}
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logo_place_footer {
+  width: 228px;
+  height: 32px;
+}
+.footer__author {
   margin-top: auto;
-  margin-bottom: 18px; 
-} 
-.footer__column_content_info { 
-  display: flex; 
-  flex-direction: column; 
-} 
-.footer_column-heading { 
- font-size: 18px; 
- font-weight: 700; 
- line-height: 30px; 
- margin: 0; 
-} 
-.footer__column-links { 
-  margin-top: 20px; 
-  display: flex; 
-  flex-direction: column; 
-  justify-content: space-between; 
-  height: 80px; 
-} 
-.footer__column-link { 
-  color: white; 
-  text-decoration: none; 
-  font-size: 18px; 
-  font-weight: normal; 
-  line-height: 30px; 
+  margin-bottom: 18px;
+}
+.footer__column_content_info {
+  display: flex;
+  flex-direction: column;
+}
+.footer_column-heading {
+ font-size: 18px;
+ font-weight: 700;
+ line-height: 30px;
+ margin: 0;
+}
+.footer__column-links {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80px;
+}
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
   margin-bottom: 10px;
-} 
-.footer__social-icon { 
-  width: 16px; 
-  height: 16px; 
-} 
+}
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+}
