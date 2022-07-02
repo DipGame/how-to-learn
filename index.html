@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 
@@ -16,7 +15,7 @@
       <h1 class="header__title">Научиться учиться</h1>
       <h2 class="header__subtitle">Какие современные и эффективные подходы к обучнию вы можете использовать в своей жизни? <a class="link header__link" href="#">Узнать →</a></h2>
       <img src="./images/two_again.png" alt="Опять двойка" class="header__main-illustration">
-      <div class="header__square-pic"></div>
+      <div class="rotation header__square-pic"></div>
     </header>
 
 
@@ -62,7 +61,6 @@
             <h4 class="cards__title">Два вида внимания</h4>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
           </div>
-          <div class="cards__item"></div>
         </div>
       </section>
 
@@ -71,8 +69,8 @@
         <h2 class="section-title">Видео на TED</h2>
         <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
         <div class="video__iframes">
-          <iframe class="video__iframe" width="720" height="405" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
-          <iframe class="video__iframe" width="720" height="405" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -139,12 +137,12 @@
 
       <section class="khan">
         <div class="khan__container">
-          <h2 class="khan__author">Салман Хан</h2>
-          <h3 class="khan__title">Весь мир — школа</h3>
+          <p class="khan__author">Салман Хан</p>
+          <h2 class="khan__title">Весь мир — школа</h2>
           <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
           </p>
-          <h2 class="khan__quote-author">Джордж Лукас</h2>
-          <h4 class="khan__quote-author-subline">Кинорежиссер, продюсер</h4>
+          <p class="khan__quote-author">Джордж Лукас</p>
+          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Изображение">
             <a class="link khan__buy-link" href="#">Купить книгу →</a>
@@ -198,10 +196,9 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </div>
         </div>
-        <div class="kaufman__triangle"></div>
+        <div class="rotation kaufman__triangle"></div>
       </section>
-    </main>
-
+    
 
     <section class="resources">
       <h2 class="section-title">Полезные ресурсы</h2>
@@ -213,6 +210,7 @@
         <a class="link resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Изображение"></a>
       </div>
     </section>
+    </main>
 
 
     <footer class="footer">
